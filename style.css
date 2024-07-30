@@ -59,10 +59,24 @@ HEADER
 .page-header-container {
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+.nav-link-studio,
+.nav-link-portfolio {
+  display: none;
+}
+.nav-link-map {
+  display: flex;
+  justify-content: center;
 }
 .menu-nav-link,
 .address {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.address-link-two-namber {
+  padding-top: 8px;
 }
 .logo-header {
   display: block;
@@ -73,20 +87,17 @@ HEADER
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #5a4de5;
 }
 .logo-part {
   color: #2e2f42;
 }
 .page-navigation {
   margin-right: auto;
+  margin-left: auto;
 }
-
-.btn-burger {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.address-link-mail {
+  display: none;
 }
 .icone-burger {
   display: block;
